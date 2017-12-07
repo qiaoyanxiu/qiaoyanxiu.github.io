@@ -1,0 +1,1 @@
+document.querySelector("#ip").innerHTML="我是一段文字";
