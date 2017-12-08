@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -88,4 +93,41 @@ body {
 }
 .s1 .main img:nth-of-type(2){
     width: 68%;
+    margin-bottom: 20px;
+}
+.s1 .main .img9{
+    background-image: url(../img/9.png);
+    background-size:contain;
+    width: 210px;
+    height: 24.5px;
+    margin: auto;
+}
+
+
+.s1 .footer{
+    color: #08f5cb;
+    width: 100%;
+   
+}
+.s1 .footer h2{
+     font-size: 20px;
+  
+}
+
+.s1 .footer p:nth-of-type(1){
+   font-size: 18px;
+}
+.s1 .footer img{
+    height: 70px;
+    
+}
+.s1 .footer img:nth-of-type(1){
+    position: absolute;
+    bottom: 2px;
+    left: 25px;
+}
+.s1 .footer img:nth-of-type(2){
+    position: absolute;
+    bottom: 2px;
+    left: -98px;
 }
