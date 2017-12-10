@@ -197,4 +197,5 @@ body {
     border-radius: 20px;
     padding: 8px 0px;
     font-size: 16px;
+    background: linear-gradient(to right, #00e7f9, #00ff96);
 }
