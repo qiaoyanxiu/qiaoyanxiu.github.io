@@ -58,29 +58,34 @@ body {
     width: 35px;
     top: 120px;
     left: 50px;
+    animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(2){
     width: 65px;
     top: 90px;
     right: 40px;
+    animation: swing infinite;
 }
 
 .s1 .header img:nth-of-type(3){
     width: 55px;
     left: 35px;
     bottom: 180px;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
     right: 50px;
     bottom: 210px;
+    animation: swing infinite;
 }
 .s1 .header img:nth-of-type(5){
     left: 50%;
     top: 25%;
     width: 60%;
     margin-left: -30%;
+    animation: pulse infinite;
 }
 
 .s1 .main{
@@ -93,6 +98,7 @@ body {
 .s1 .main img:nth-of-type(2){
     width: 68%;
     margin-bottom: 20px;
+    animation: pulse infinite;
 }
 .s1 .main .img9{
     background-image: url(../img/9.png);
@@ -105,6 +111,7 @@ body {
 .s1 .footer{
     color: #08f5cb;
     width: 100%;
+    padding-top: 80px;
 }
 .s1 .footer h2{
     font-size: 20px;
@@ -112,7 +119,7 @@ body {
     margin-bottom: 10px;
 }
 .s1 .footer p:nth-of-type(1){
-   font-size: 18px;
+   font-size:16px;
 }
 .s1 .footer img{
     height: 70px;
