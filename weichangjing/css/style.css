@@ -43,7 +43,7 @@ body {
 }
 
 /*音乐按钮样式*/
-span{
+#pic{
     background-color: #333;
     position: absolute;
     top:3%;
@@ -55,7 +55,7 @@ span{
     line-height: 30px;
     z-index: 100;
 }
-span img{
+#pic img{
     width: 10px;
     transform: rotateZ(0deg);
     animation: btnimg 2.5s linear infinite;
@@ -254,4 +254,83 @@ span img{
 }
 .s3 p{
     font-size: 0.8em;
+}
+.s3 #main1 img{
+    position: absolute;
+}
+.s3 #main1 img:nth-of-type(1){
+    width: 20%;
+    top: 20%;
+    left:20%;
+}
+.s3 #main1 img:nth-of-type(2){
+    width: 20%;
+    top: 38%;
+    left: 3%;
+}
+.s3 #main1 img:nth-of-type(3){
+    width: 20%;
+    bottom: 33%;
+    left:20%;
+}
+.s3 #main1 img:nth-of-type(4){
+    width: 20%;
+    bottom: 33%;
+    right:20%;
+}
+.s3 #main1 img:nth-of-type(5){
+    width: 20%;
+    top: 38%;
+    right: 3%;
+}
+.s3 #main1 img:nth-of-type(6){
+    width: 20%;
+    top: 20%;
+    right:20%;
+}
+.s3 #main1 img:nth-of-type(7){
+    width: 45%;
+    right: 27.5%;
+    top: 30%;
+}
+.s3 #main1 span{
+    position: absolute;
+}
+.s3 #main1 span:nth-of-type(1){
+    width: 20%;
+    top: 23.5%;
+    left:20%;
+}
+.s3 #main1 span:nth-of-type(2){
+    width: 20%;
+    top: 41.5%;
+    left: 3%;
+}
+.s3 #main1 span:nth-of-type(3){
+    width: 20%;
+    bottom: 37%;
+    left:20%;
+}
+.s3 #main1 span:nth-of-type(4){
+    width: 20%;
+    bottom: 37%;
+    right:20%;
+}
+.s3 #main1 span:nth-of-type(5){
+    width: 20%;
+    top: 41.5%;
+    right: 3%;
+}
+.s3 #main1 span:nth-of-type(6){
+    width: 20%;
+    top: 23.5%;
+    right:20%;
+}
+.s3 #main1 span:nth-of-type(7){
+    width: 45%;
+    right: 27.5%;
+    top: 40%;
+}
+.s3 p:nth-of-type(1){
+    padding-top: 108%;
 }
