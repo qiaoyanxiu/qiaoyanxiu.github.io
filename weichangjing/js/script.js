@@ -24,6 +24,18 @@ var swiper = new Swiper('.swiper-container', {
       } 
     }
 });
+//音乐按钮效果
+var myAudio=document.querySelector("#Music");
+var picbtn=document.querySelector("#pic img");
+picbtn.addEventListener('click',function(){
+    if(myAudio.paused){
+        myAudio.play();
+        picbtn.style.animationPlayState="running";
+    }else{
+        myAudio.pause();
+        picbtn.style.animationPlayState="paused";
+    }
+});
 
 
 
