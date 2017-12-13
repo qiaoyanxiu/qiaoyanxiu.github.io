@@ -237,7 +237,7 @@ body {
     top: 35px;
     right: 55px;
 }
-.s2 small,.s3 small,.s4 small,.s5 small{
+.s2 small,.s3 small,.s4 small,.s5 small,.s6 small,.s7 small{
     font-size: 16px;
     font-family: Gautami;
     display: inline-block;
@@ -443,4 +443,63 @@ body {
 }
 .s5 .upper .row .col-xs-6 img{
     width: 100%;
+}
+
+/*s6样式*/
+.s6 .pm p{
+    color: #000615;
+    background: url(../img/s6-1.png);
+    background-size: 100%;
+    width:70%;
+    font-size: 1.1em; 
+    margin: auto;
+    margin-bottom: 10px;
+}
+.s6 .kuang{
+    color: #00fac8;
+    background-image: url(../img/s6-2.png);
+    background-size: 100%;
+    width:70%;
+    font-size: 0.8em;
+    margin: auto;
+    padding: 10px 12px;
+    margin-bottom: 30px;
+}
+.s6 .kuang li{
+    text-align: left;
+    list-style: none;
+}
+/*s7样式*/
+.s7 .bg{
+    position: relative;
+}
+.s7 .bg img{
+    width: 80%;
+}
+.s7 .frame{
+    position: absolute;
+    top: 10%;
+    left: 16%;
+}
+.s7 .frame li{
+    color: #b0b0b0;
+    list-style: none;
+    background-color: #fefefe;
+    width: 110%;
+    line-height: 240%;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 10px;
+    clear: both;
+}
+.s7 .frame li:nth-of-type(4){
+    background-color: #00f2ca;
+    color: #fffaff;
+    text-align: center;
+    margin-bottom: 30%;
+}
+.s7 .frame p{
+    color: #04f0c8;
+    font-size: 0.8em;
+    padding-left: 30px;
 }
