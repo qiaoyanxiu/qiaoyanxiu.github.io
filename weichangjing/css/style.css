@@ -30,16 +30,33 @@ body {
 }
 
 /*自定义样式  - 开始*/
-
+.swiper-slide{
+    background: none;
+}
 /*向下翻页的按钮*/
 .swiper-button-next {
     position: absolute;
     top: auto;
-    bottom: 5%;
+    bottom: 3%;
     left: 50%;
     right: auto;
     margin-left: -13.5px;
     transform: rotateZ(-90deg);
+    width: 17px;
+    height: 34px;
+    background-size:17px 34px;
+    animation:buttonnext 2s infinite;
+    opacity: 1;
+}
+@keyframes buttonnext{
+    0%{
+      bottom:3%;
+        opacity: 1;
+    }
+    100%{
+       bottom:5%;
+        opacity: 0;
+    }
 }
 
 /*音乐按钮样式*/
@@ -130,9 +147,10 @@ body {
     width: 210px;
     height: 24.5px;
     margin: auto;
+    color: #06001e;
 }
 
-.s1 .footer{
+.s1 .footer,.s2 .footer{
     color: #08f5cb;
     width: 100%;
     padding-top: 80px;
@@ -145,26 +163,47 @@ body {
 .s1 .footer p:nth-of-type(1){
    font-size:16px;
 }
-.s1 .footer img{
+/*底部波纹*/
+.s1 .footer img,.s2 .footer img{
     height: 70px;
 }
-.s1 .footer img:nth-of-type(1){
+.s1 .footer img:nth-of-type(1),
+.s2 .footer img:nth-of-type(1){
     position: absolute;
-    bottom: 10px;
+    bottom: 3px;
     left: -77px;
+    animation:footerimg1 1.5s alternate infinite; 
 }
-.s1 .footer img:nth-of-type(2){
+.s1 .footer img:nth-of-type(2),
+.s2 .footer img:nth-of-type(2){
     position: absolute;
-    bottom: 10px;
+    bottom: 3px;
     left: 0px;
+    animation: footerimg2 1.5s alternate infinite;
 }
-
+@keyframes footerimg1{
+    0%{
+       left: -77px; 
+    }
+    100%{
+      left: -127px; 
+    }
+}
+@keyframes footerimg2{
+    0%{
+       left: 0px; 
+    }
+    100%{
+      left: 50px; 
+    }
+}
 /*s2样式*/
 
 .s2 h2,.s3 h2,.s4 h2,.s5 h2,.s6 h2,.s7 h2{
     font-size: 25px;
     font-family: 宋体;
-    padding-top: 30px;  
+    padding-top: 30px; 
+    color: #00f6c9;
 }
 .s2 h2::before,
 .s3 h2::before,
@@ -198,11 +237,13 @@ body {
     top: 35px;
     right: 55px;
 }
-.s2 small,.s3 small,.s4 small{
+.s2 small,.s3 small,.s4 small,.s5 small{
     font-size: 16px;
     font-family: Gautami;
     display: inline-block;
     margin-bottom: 10px;
+    letter-spacing:4px;
+    color: #00f6c9;
 }
 .s2 .main{
    position: relative;
@@ -210,8 +251,8 @@ body {
 .s2 .main img{
     width: 80%;
     text-align: center;
-    
 }
+
 .s2 .text{
     position: absolute;
     width: 70%;
@@ -232,11 +273,10 @@ body {
     background-color: aquamarine;
     color: #08001d;
     border-radius: 20px;
-    padding: 8px 0px;
     background: linear-gradient(to right, #00e7f9, #00ff96);
 }
 .s2 .main span p{
-    line-height:85%;
+   padding-top: 10px;
 }
 
 /*s3的样式*/
@@ -247,37 +287,37 @@ body {
     position: absolute;
 }
 .s3 #main1 img:nth-of-type(1){
-    width: 20%;
+    width: 17%;
     top: 20%;
     left:20%;
 }
 .s3 #main1 img:nth-of-type(2){
-    width: 20%;
+    width: 17%;
     top: 38%;
-    left: 3%;
+    left: 6%;
 }
 .s3 #main1 img:nth-of-type(3){
-    width: 20%;
-    bottom: 33%;
+    width: 17%;
+    bottom: 36%;
     left:20%;
 }
 .s3 #main1 img:nth-of-type(4){
-    width: 20%;
-    bottom: 33%;
+    width: 17%;
+    bottom: 36%;
     right:20%;
 }
 .s3 #main1 img:nth-of-type(5){
-    width: 20%;
+    width: 17%;
     top: 38%;
     right: 3%;
 }
 .s3 #main1 img:nth-of-type(6){
-    width: 20%;
+    width: 17%;
     top: 20%;
     right:20%;
 }
 .s3 #main1 img:nth-of-type(7){
-    width: 45%;
+    width: 40%;
     right: 27.5%;
     top: 30%;
 }
@@ -285,37 +325,37 @@ body {
     position: absolute;
 }
 .s3 #main1 span:nth-of-type(1){
-    width: 20%;
+    width: 17%;
     top: 23.5%;
     left:20%;
 }
 .s3 #main1 span:nth-of-type(2){
-    width: 20%;
+    width: 17%;
     top: 41.5%;
-    left: 3%;
+    left: 6%;
 }
 .s3 #main1 span:nth-of-type(3){
-    width: 20%;
-    bottom: 37%;
+    width: 17%;
+    bottom: 39.5%;
     left:20%;
 }
 .s3 #main1 span:nth-of-type(4){
-    width: 20%;
-    bottom: 37%;
+    width: 17%;
+    bottom: 39.5%;
     right:20%;
 }
 .s3 #main1 span:nth-of-type(5){
-    width: 20%;
+    width: 17%;
     top: 41.5%;
     right: 3%;
 }
 .s3 #main1 span:nth-of-type(6){
-    width: 20%;
+    width: 17%;
     top: 23.5%;
     right:20%;
 }
 .s3 #main1 span:nth-of-type(7){
-    width: 45%;
+    width: 40%;
     right: 27.5%;
     top: 40%;
 }
@@ -376,4 +416,31 @@ body {
 .s4 .conten .word .strip4 {
     font-size: 0.8em;
     margin-top:70px;
+}
+/*s5*/
+.s5 .upper{
+    color: aqua;
+}
+.s5 .upper .row .col-xs-6{
+    background-image: url(../img/pic5.png);
+    background-size: 100%;
+    width: 40%;
+   margin-left: 27px;
+    margin-top: 25px;
+}
+.s5 .upper .row .col-xs-6 p{
+    font-size: 0.8em;
+}
+.s5 .upper .row .col-xs-6 h3{
+    font-size: 0.8em;
+    width: 110px;
+    background-color: aquamarine;
+    color: #08001d;
+    border-radius: 20px;
+    padding: 5px 0px;
+    background: linear-gradient(to right, #00e7f9, #00ff96);
+    margin-left: 8%;
+}
+.s5 .upper .row .col-xs-6 img{
+    width: 100%;
 }
