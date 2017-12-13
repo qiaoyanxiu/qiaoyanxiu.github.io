@@ -161,12 +161,17 @@ body {
 
 /*s2样式*/
 
-.s2 h2,.s3 h2{
+.s2 h2,.s3 h2,.s4 h2,.s5 h2,.s6 h2,.s7 h2{
     font-size: 25px;
     font-family: 宋体;
     padding-top: 30px;  
 }
-.s2 h2::before{
+.s2 h2::before,
+.s3 h2::before,
+.s4 h2::before,
+.s5 h2::before,
+.s6 h2::before,
+.s7 h2::before{
     content: "";
     display: inline-block;
     background-image: url(../img/14.png);
@@ -177,7 +182,12 @@ body {
     top: 35px;
     left: 55px;
 }
-.s2 h2::after{
+.s2 h2::after,
+.s3 h2::after,
+.s4 h2::after,
+.s5 h2::after,
+.s6 h2::after,
+.s7 h2::after{
     content: "";
     display: inline-block;
     background-image: url(../img/13.png);
@@ -188,7 +198,7 @@ body {
     top: 35px;
     right: 55px;
 }
-.s2 small{
+.s2 small,.s3 small,.s4 small{
     font-size: 16px;
     font-family: Gautami;
     display: inline-block;
@@ -230,28 +240,6 @@ body {
 }
 
 /*s3的样式*/
-.s3 h2::before{
-    content: "";
-    display: inline-block;
-    background-image: url(../img/14.png);
-    background-size: 100%;
-    width: 83px;
-    height: 20px;
-    position: absolute;
-    top: 35px;
-    left: 55px;
-}
-.s3 h2::after{
-    content: "";
-    display: inline-block;
-    background-image: url(../img/13.png);
-    background-size: 100%;
-    width: 83px;
-    height: 20px;
-    position: absolute;
-    top: 35px;
-    right: 55px;
-}
 .s3 p{
     font-size: 0.8em;
 }
@@ -333,4 +321,59 @@ body {
 }
 .s3 p:nth-of-type(1){
     padding-top: 108%;
+}
+
+/*s4的样式*/
+.s4 .conten{
+    position: relative;
+}
+.s4 .conten img{
+    width: 80%;
+}
+.s4 .conten .word{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 0.9em;
+}
+
+.s4 .conten .word .strip1,.s4 .conten .word .strip2,.s4 .conten .word .strip3{
+  margin-left: -45px; 
+    margin:20px 0px;
+}
+
+.s4 .conten .word .yi img{
+    width: 4%;
+    margin-left: -130px;
+}
+
+.s4 .conten .word .pic2 img{
+    width: 8%;
+    margin-bottom: -10px;
+} 
+.s4 .conten .word .strip1 .two img{
+    width: 60%;
+}
+.s4 .conten .word .strip1 .tree img{
+    width: 50%;
+}
+
+.s4 .conten .word .strip2 .tu1 img{
+    width: 55%;
+}
+.s4 .conten .word .strip2 .tu2 img{
+    width: 45%;
+}
+
+.s4 .conten .word .strip3 .tu3 img{
+    width: 40%;
+    margin-left: -55px;
+}
+.s4 .conten .word .strip3 .tu4 img{
+    width: 30%;
+    margin-left: -95px;
+}
+.s4 .conten .word .strip4 {
+    font-size: 0.8em;
+    margin-top:70px;
 }
