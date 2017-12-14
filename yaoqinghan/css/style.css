@@ -28,7 +28,7 @@ body {
 }
 /*自定义样式  - 开始*/
 .swiper-slide{
-    background: none;
+    text-align: center;
 }
 /*向下翻页的按钮*/
 .swiper-button-next {
@@ -83,6 +83,28 @@ body {
     }
 }
 /* .s1*/
+.s1 .header{
+}
+.s1 .header img:nth-of-type(1){
+    width: 80%;
+    text-align: center;
+    padding-top: 10%;
+}
+.s1 .header img:nth-of-type(2){
+    position: absolute;
+    width: 50%;
+    top: 14%;
+    left: 26%;
+}
+.s1 .header h3{
+    color: #f6dda7;
+    font-size: 2.3em;
+    font-family: 方正行楷简体;
+    position: absolute;
+    top: 23%;
+    left: 15%;
+}
+
 /* .s2*/
 /* .s3*/
 /* .s4*/
