@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.bg{
+    background: url(../img/bg.jpg) 100%;
+    height:100%;
+   
+}
+/*自定义样式  - 开始*/
+.swiper-slide{
+    background: none;
+}
+/*向下翻页的按钮*/
+.swiper-button-next {
+    position: absolute;
+    top: auto;
+    bottom: 3%;
+    left: 50%;
+    right: auto;
+    margin-left: -13.5px;
+    transform: rotateZ(-90deg);
+    width: 17px;
+    height: 34px;
+    background-size:17px 34px;
+    animation:buttonnext 2s infinite;
+    opacity: 1;
+}
+@keyframes buttonnext{
+    0%{
+      bottom:3%;
+        opacity: 1;
+    }
+    100%{
+       bottom:5%;
+        opacity: 0;
+    }
+}
+
+/*音乐按钮样式*/
+#pic{
+    background-color: #333;
+    position: absolute;
+    top:3%;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    z-index: 100;
+}
+#pic img{
+    width: 10px;
+    transform: rotateZ(0deg);
+    animation: btnimg 2.5s linear infinite;
+}
+@keyframes btnimg{
+    0%{
+      transform: rotateZ(0deg);  
+    }
+    100%{
+       transform: rotateZ(360deg);
+    }
+}
+/* .s1*/
+/* .s2*/
+/* .s3*/
+/* .s4*/
+/* .s5*/
+/* .s6*/
+/* .s7*/
