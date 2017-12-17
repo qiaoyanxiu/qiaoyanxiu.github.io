@@ -94,9 +94,9 @@ body {
 }
 .s1 .header img:nth-of-type(2){
     position: absolute;
-    width: 65%;
-    top: 22%;
-    left: 18%;
+    width: 58%;
+    top: 20%;
+    left: 22%;
 }
 .s1 .header img:nth-of-type(3){
     position: absolute;
@@ -106,11 +106,11 @@ body {
 }
 .s1 .header h3{
     color: #f6dda7;
-    font-size: 3.7em;
+    font-size: 2.7em;
     font-family: 方正行楷简体;
     position: absolute;
-    top: 38%;
-    left: 29%;
+    top: 35%;
+    left: 33%;
     text-shadow:2px 5px 6px #2d6826;
 }
 .s1 .footer p:nth-of-type(1){
@@ -218,10 +218,10 @@ body {
 /* .s5*/
 .line{
     position: absolute;
-    top: 26%;
+    top: 22%;
     left: 23.5%;
     width: 2px;
-    height: 48%;
+    height: 65%;
     border-left: 1px #9bf113 dashed ;
     
 }
@@ -255,7 +255,7 @@ body {
 
 .s6 .main p{
     color: #2d782b;
-    line-height: 350%;
+    line-height: 330%;
     margin-bottom: 5%;
     background: #cda557;
     font-size: 1.2em;
