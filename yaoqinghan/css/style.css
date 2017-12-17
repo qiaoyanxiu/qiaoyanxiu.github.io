@@ -131,12 +131,8 @@ body {
 
 /* .s2*/
 .s2 .writer1{
-    background: url(../img/ye.png);
-    background-size: 100%;
     width: 85%;
-    position:relative;
-    top: 8%;
-    left: 8%;
+   
     height: 48%;
 }
 .s2 .writer{
@@ -146,28 +142,26 @@ body {
     font-size: 1.3em;
     color: #8f7343;
     float:left;
+   
 }
 .s2 .writer p{
     text-align: left;
     line-height: 1.5em;
     font-size: 1em;
+    width: 115%;
 }
 .s2 .writer p:nth-of-type(1){
-    position: absolute;
-    top: 24%;
-    left: 12%;
-    width: 75%;
-
+    margin-top: 10%; 
 }
 .s2 .writer p:nth-of-type(2){
     position: absolute;
-    top: 65%;
-    left: 33%;
+    top: 70%;
+    left: 45%;
 }
 .s2 .writer p:nth-of-type(3){
     position: absolute;
     top: 74%;
-    left: 33%;
+    left: 45%;
 }
 .s2 .footer img,.s3 .footer img{
     position: absolute;
