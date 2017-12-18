@@ -3,10 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>欢迎您的到来</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .warper{
+            background-image: url(img/bg2.jpg);
+            background-size: 100%;
+            text-align: center;
+            font-family: 仿宋;
+            padding: 2% 0%;
+        } 
+        .warper h1{
+            margin-bottom: 3%;
+            color: black;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>欢迎来到乔艳秀的仓库</h1>
-    <a href="weichangjing/">微场景</a>
-    <a href="yaoqinghan/">双选会邀请函</a>
+    <div class="warper">
+        <h1>欢迎来到乔艳秀的仓库</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail"> 
+                       <img src="img/bg-3.png" alt="">
+                        <div class="caption">
+                            <h3>微场景</h3>
+                            <p>...</p>
+                            <p><a href="weichangjing/" class="btn btn-primary" role="button">微场景</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail"> 
+                       <img src="img/bg-3.png" alt="...">
+                        <div class="caption">
+                            <h3>双选会邀请函</h3>
+                            <p>...</p>
+                            <p><a href="yaoqinghan/" class="btn btn-primary" role="button">双选会邀请函</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/bg-3.png" alt="...">
+                        <div class="caption">
+                            <h3>双选会邀请函</h3>
+                            <p>...</p>
+                            <p><a href="yaoqinghan/" class="btn btn-primary" role="button">双选会邀请函</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+             </div>
+        </div>
+    </div>
+    
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 </body>
 </html>
